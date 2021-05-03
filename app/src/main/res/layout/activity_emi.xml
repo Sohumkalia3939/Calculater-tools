@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/background"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate Age"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:textSize="40sp"
+        android:gravity="start"
+        android:layout_marginEnd="30dp"
+        android:layout_marginStart="30dp"
+        android:fontFamily="@font/quicksand_bold"
+        />
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_margin="20dp"
+        android:text="@string/desc"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:fontFamily="@font/maven_pro_regular"
+        />
+
+    <TextView
+        android:id="@+id/enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v"
+        android:layout_marginTop="20dp"
+        android:text="@string/whatis"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:fontFamily="@font/roboto_regular"
+        />
+
+
+
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/enter"
+        android:layout_centerHorizontal="true"
+        android:alpha="0.8"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"/>
+
+
+
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btntheme"
+        android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/datePicker"
+        android:text="Calculate"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:padding="10dp"
+        tools:ignore="HardcodedText" />
+
+
+    <!--Test Banner Id: ca-app-pub-3940256099942544/6300978111-->
+
+</RelativeLayout>

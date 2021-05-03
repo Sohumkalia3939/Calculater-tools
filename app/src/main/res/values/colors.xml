@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#373331</color>
+    <color name="colorPrimaryDark">#373331</color>
+    <color name="colorAccent">#D6895E</color>
+    <color name="black">#373331</color>
+    <color name="orange">#D6895E</color>
+    <color name="white">#fff</color>
+
+    <color name="silver">#bdbdbd</color>
+    <color name="darkGray">#484848</color>
+    <color name="barberry">#E5D817</color>
+    <color name="cardBackgroundColor">#20364D</color>
+
+
+
+
+
+    <color name="colorWhite2">#F3F3F3</color>
+    <color name="colorPrimaryLite">#1D6200EE</color>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <color name="colorSecondaryDark">#002f6c</color>
+    <color name="colorSecondaryLite">#4f83cc</color>
+    <color name="colorTextonPrimary">#ffffff</color>
+    <color name="colorTextonSecondary">#ffffff</color>
+
+
+
+
+
+
+    <color name="colorGray">#A0A0A0</color>
+    <color name="colorWhite"> #ffffff</color>
+    <color name="colorBlack"> #3d3d3d</color>
+    <color name="colorYellow">#F4D648</color>
+    <color name="colorGreen">#2abb9a</color>
+    <color name="colorRed">#F44B3E</color>
+    <color name="colorAccent2">@color/colorRed</color>
+
+
+    <color name="background">#0B0A24</color>
+    <color name="card_background">#11122A</color>
+
+    <color name="stepper">#1C1D34</color>
+    <color name="tint">#8D8E99</color>
+
+
+
+</resources>
